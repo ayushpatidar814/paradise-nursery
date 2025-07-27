@@ -58,6 +58,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+.product-category-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95vw;
+    gap:20px;
+}
 
 /* Product Card */
 .product-card {
@@ -72,6 +79,10 @@ body {
     position: relative;
     
     gap: 20px;
+}
+.product-card img{
+    width: 200px;
+    height: 200px;
 }
 
 /* Pseudo-classes - Hover effect on product button */
